@@ -28,6 +28,7 @@ import flash.events.EventDispatcher;
 
 	private static inline var OPENED               	: String = "OPENED";
 	private static inline var OPENING              	: String = "OPENING";
+	private static inline var ERROR              	: String = "ERROR";
 	private static inline var GRAPH_REQUEST_ERROR  	: String = "GRAPH_REQUEST_ERROR";
 	private static inline var GRAPH_REQUEST_RESULTS	: String = "GRAPH_REQUEST_RESULTS";
 	private static inline var DIALOG_CANCELED      	: String = "DIALOG_CANCELED";
@@ -333,8 +334,11 @@ import flash.events.EventDispatcher;
 				case GRAPH_REQUEST_RESULTS:
 					ev = _dispatch_request_event( sEventType , sArg2 , sArg1 );
 
+                case ERROR:
+                    ev = new HypFacebookEvent(HypFacebookEvent.ERROR);
+
 				default:
-					trace('pas connu');
+
 
 			}
 
@@ -653,6 +657,7 @@ class HypFacebookEvent extends Event{
 	public static inline var OPENED					: String = 'OPENED';
 	public static inline var CLOSED_LOGIN_FAILED	: String = 'CLOSED_LOGIN_FAILED';
 	public static inline var OPENED_TOKEN_UPDATED	: String = 'OPENED_TOKEN_UPDATED';
+	public static inline var ERROR	: String = 'ERROR';
 
 	// -------o constructor
 
