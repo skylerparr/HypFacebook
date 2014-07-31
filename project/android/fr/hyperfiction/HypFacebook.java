@@ -160,12 +160,12 @@ public class HypFacebook {
 			}
 			Session.OpenRequest req = _createOpenRequest( session );
 			req.setPermissions( _createPermissionsFromString( sPerms ) );
-			if ( SessionState.CREATED_TOKEN_LOADED.equals(session.getState()) || allowUI ) {
-				try{
+            if ( SessionState.CREATED_TOKEN_LOADED.equals(session.getState()) || ( allowUI && !SessionState.OPENING.equals(session.getState()) ) ) {
+                try{
 					session.openForRead( req );
 				} catch( Exception e) {
 					trace( "Exception in openForRead");
-					e.printStackTrace();
+					trace(e.toString());
 				}
 				return session.isOpened( );
 			} else {
