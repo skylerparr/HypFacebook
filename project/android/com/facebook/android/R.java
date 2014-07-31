@@ -9,322 +9,322 @@ package com.facebook.android;
 
 public final class R {
     public static final class attr {
-        /** 
-    The size of the ad. It must be one of BANNER, FULL_BANNER, LEADERBOARD,
-    MEDIUM_RECTANGLE, SMART_BANNER, WIDE_SKYSCRAPER, or
-    &lt;width&gt;x&lt;height&gt;.
-    
+        /**
+         The size of the ad. It must be one of BANNER, FULL_BANNER, LEADERBOARD,
+         MEDIUM_RECTANGLE, SMART_BANNER, WIDE_SKYSCRAPER, or
+         &lt;width&gt;x&lt;height&gt;.
+
          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
          */
         public static final int adSize=0x7f010000;
-        /** 
-    A comma-separated list of the supported ad sizes. The sizes must be one of
-    BANNER, FULL_BANNER, LEADERBOARD, MEDIUM_RECTANGLE, SMART_BANNER,
-    WIDE_SKYSCRAPER, or &lt;width&gt;x&lt;height&gt;.
-    
+        /**
+         A comma-separated list of the supported ad sizes. The sizes must be one of
+         BANNER, FULL_BANNER, LEADERBOARD, MEDIUM_RECTANGLE, SMART_BANNER,
+         WIDE_SKYSCRAPER, or &lt;width&gt;x&lt;height&gt;.
+
          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
          */
         public static final int adSizes=0x7f010001;
         /**  The ad unit ID. 
          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
          */
         public static final int adUnitId=0x7f010002;
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
          */
         public static final int cameraBearing=0x7f010004;
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
          */
         public static final int cameraTargetLat=0x7f010005;
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
          */
         public static final int cameraTargetLng=0x7f010006;
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
          */
         public static final int cameraTilt=0x7f010007;
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
          */
         public static final int cameraZoom=0x7f010008;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
          */
         public static final int confirm_logout=0x7f01001d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int done_button_background=0x7f010017;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
          */
         public static final int done_button_text=0x7f010015;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
          */
         public static final int extra_fields=0x7f010012;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
          */
         public static final int fetch_user_info=0x7f01001e;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
          */
         public static final int is_cropped=0x7f010022;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
          */
         public static final int login_text=0x7f01001f;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
          */
         public static final int logout_text=0x7f010020;
         /** <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>none</code></td><td>0</td><td></td></tr>
-<tr><td><code>normal</code></td><td>1</td><td></td></tr>
-<tr><td><code>satellite</code></td><td>2</td><td></td></tr>
-<tr><td><code>terrain</code></td><td>3</td><td></td></tr>
-<tr><td><code>hybrid</code></td><td>4</td><td></td></tr>
-</table>
+         <table>
+         <colgroup align="left" />
+         <colgroup align="left" />
+         <colgroup align="left" />
+         <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+         <tr><td><code>none</code></td><td>0</td><td></td></tr>
+         <tr><td><code>normal</code></td><td>1</td><td></td></tr>
+         <tr><td><code>satellite</code></td><td>2</td><td></td></tr>
+         <tr><td><code>terrain</code></td><td>3</td><td></td></tr>
+         <tr><td><code>hybrid</code></td><td>4</td><td></td></tr>
+         </table>
          */
         public static final int mapType=0x7f010003;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
          */
         public static final int multi_select=0x7f010018;
         /** <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>small</code></td><td>-2</td><td> Keep in sync with constants in ProfilePictureView </td></tr>
-<tr><td><code>normal</code></td><td>-3</td><td></td></tr>
-<tr><td><code>large</code></td><td>-4</td><td></td></tr>
-</table>
+         <table>
+         <colgroup align="left" />
+         <colgroup align="left" />
+         <colgroup align="left" />
+         <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+         <tr><td><code>small</code></td><td>-2</td><td> Keep in sync with constants in ProfilePictureView </td></tr>
+         <tr><td><code>normal</code></td><td>-3</td><td></td></tr>
+         <tr><td><code>large</code></td><td>-4</td><td></td></tr>
+         </table>
          */
         public static final int preset_size=0x7f010021;
         /** <p>Must be an integer value, such as "<code>100</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
          */
         public static final int radius_in_meters=0x7f010019;
         /** <p>Must be an integer value, such as "<code>100</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
          */
         public static final int results_limit=0x7f01001a;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
          */
         public static final int search_text=0x7f01001b;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
          */
         public static final int show_pictures=0x7f010011;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
          */
         public static final int show_search_box=0x7f01001c;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
          */
         public static final int show_title_bar=0x7f010013;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int title_bar_background=0x7f010016;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
          */
         public static final int title_text=0x7f010014;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
          */
         public static final int uiCompass=0x7f010009;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
          */
         public static final int uiRotateGestures=0x7f01000a;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
          */
         public static final int uiScrollGestures=0x7f01000b;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
          */
         public static final int uiTiltGestures=0x7f01000c;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
          */
         public static final int uiZoomControls=0x7f01000d;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
          */
         public static final int uiZoomGestures=0x7f01000e;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
          */
         public static final int useViewLifecycle=0x7f01000f;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
          */
         public static final int zOrderOnTop=0x7f010010;
     }
     public static final class color {
-        public static final int com_facebook_blue=0x7f04000c;
-        public static final int com_facebook_loginview_text_color=0x7f040010;
-        public static final int com_facebook_picker_search_bar_background=0x7f04000a;
-        public static final int com_facebook_picker_search_bar_text=0x7f04000b;
-        public static final int com_facebook_usersettingsfragment_connected_shadow_color=0x7f04000e;
-        public static final int com_facebook_usersettingsfragment_connected_text_color=0x7f04000d;
-        public static final int com_facebook_usersettingsfragment_not_connected_text_color=0x7f04000f;
-        public static final int common_action_bar_splitter=0x7f040009;
+        public static final int com_facebook_blue=0x7f05000c;
+        public static final int com_facebook_loginview_text_color=0x7f050010;
+        public static final int com_facebook_picker_search_bar_background=0x7f05000a;
+        public static final int com_facebook_picker_search_bar_text=0x7f05000b;
+        public static final int com_facebook_usersettingsfragment_connected_shadow_color=0x7f05000e;
+        public static final int com_facebook_usersettingsfragment_connected_text_color=0x7f05000d;
+        public static final int com_facebook_usersettingsfragment_not_connected_text_color=0x7f05000f;
+        public static final int common_action_bar_splitter=0x7f050009;
         /**  Sign-in Button Colors 
          */
-        public static final int common_signin_btn_dark_text_default=0x7f040000;
-        public static final int common_signin_btn_dark_text_disabled=0x7f040002;
-        public static final int common_signin_btn_dark_text_focused=0x7f040003;
-        public static final int common_signin_btn_dark_text_pressed=0x7f040001;
-        public static final int common_signin_btn_default_background=0x7f040008;
-        public static final int common_signin_btn_light_text_default=0x7f040004;
-        public static final int common_signin_btn_light_text_disabled=0x7f040006;
-        public static final int common_signin_btn_light_text_focused=0x7f040007;
-        public static final int common_signin_btn_light_text_pressed=0x7f040005;
-        public static final int common_signin_btn_text_dark=0x7f040011;
-        public static final int common_signin_btn_text_light=0x7f040012;
+        public static final int common_signin_btn_dark_text_default=0x7f050000;
+        public static final int common_signin_btn_dark_text_disabled=0x7f050002;
+        public static final int common_signin_btn_dark_text_focused=0x7f050003;
+        public static final int common_signin_btn_dark_text_pressed=0x7f050001;
+        public static final int common_signin_btn_default_background=0x7f050008;
+        public static final int common_signin_btn_light_text_default=0x7f050004;
+        public static final int common_signin_btn_light_text_disabled=0x7f050006;
+        public static final int common_signin_btn_light_text_focused=0x7f050007;
+        public static final int common_signin_btn_light_text_pressed=0x7f050005;
+        public static final int common_signin_btn_text_dark=0x7f050011;
+        public static final int common_signin_btn_text_light=0x7f050012;
     }
     public static final class dimen {
         public static final int com_facebook_loginview_compound_drawable_padding=0x7f080008;
@@ -359,7 +359,7 @@ containing a value of this type.
         public static final int com_facebook_list_section_header_background=0x7f02000d;
         public static final int com_facebook_loginbutton_silver=0x7f02000e;
         public static final int com_facebook_logo=0x7f02000f;
-        public static final int com_facebook_picker_default_separator_color=0x7f020046;
+        public static final int com_facebook_picker_default_separator_color=0x7f020048;
         public static final int com_facebook_picker_item_background=0x7f020010;
         public static final int com_facebook_picker_list_focused=0x7f020011;
         public static final int com_facebook_picker_list_longpressed=0x7f020012;
@@ -414,41 +414,43 @@ containing a value of this type.
         public static final int ic_plusone_tall_off_client=0x7f020043;
         public static final int icon=0x7f020044;
         public static final int ouya_icon=0x7f020045;
+        public static final int powered_by_google_dark=0x7f020046;
+        public static final int powered_by_google_light=0x7f020047;
     }
     public static final class id {
-        public static final int com_facebook_body_frame=0x7f050019;
-        public static final int com_facebook_button_xout=0x7f05001b;
-        public static final int com_facebook_login_activity_progress_bar=0x7f050009;
-        public static final int com_facebook_picker_activity_circle=0x7f050008;
-        public static final int com_facebook_picker_checkbox=0x7f05000b;
-        public static final int com_facebook_picker_checkbox_stub=0x7f05000f;
-        public static final int com_facebook_picker_divider=0x7f050013;
-        public static final int com_facebook_picker_done_button=0x7f050012;
-        public static final int com_facebook_picker_image=0x7f05000c;
-        public static final int com_facebook_picker_list_section_header=0x7f050010;
-        public static final int com_facebook_picker_list_view=0x7f050007;
-        public static final int com_facebook_picker_profile_pic_stub=0x7f05000d;
-        public static final int com_facebook_picker_row_activity_circle=0x7f05000a;
-        public static final int com_facebook_picker_search_text=0x7f050018;
-        public static final int com_facebook_picker_title=0x7f05000e;
-        public static final int com_facebook_picker_title_bar=0x7f050015;
-        public static final int com_facebook_picker_title_bar_stub=0x7f050014;
-        public static final int com_facebook_picker_top_bar=0x7f050011;
-        public static final int com_facebook_search_bar_view=0x7f050017;
-        public static final int com_facebook_tooltip_bubble_view_bottom_pointer=0x7f05001d;
-        public static final int com_facebook_tooltip_bubble_view_text_body=0x7f05001c;
-        public static final int com_facebook_tooltip_bubble_view_top_pointer=0x7f05001a;
-        public static final int com_facebook_usersettingsfragment_login_button=0x7f050020;
-        public static final int com_facebook_usersettingsfragment_logo_image=0x7f05001e;
-        public static final int com_facebook_usersettingsfragment_profile_name=0x7f05001f;
-        public static final int hybrid=0x7f050004;
-        public static final int large=0x7f050006;
-        public static final int none=0x7f050000;
-        public static final int normal=0x7f050001;
-        public static final int picker_subtitle=0x7f050016;
-        public static final int satellite=0x7f050002;
-        public static final int small=0x7f050005;
-        public static final int terrain=0x7f050003;
+        public static final int com_facebook_body_frame=0x7f060019;
+        public static final int com_facebook_button_xout=0x7f06001b;
+        public static final int com_facebook_login_activity_progress_bar=0x7f060009;
+        public static final int com_facebook_picker_activity_circle=0x7f060008;
+        public static final int com_facebook_picker_checkbox=0x7f06000b;
+        public static final int com_facebook_picker_checkbox_stub=0x7f06000f;
+        public static final int com_facebook_picker_divider=0x7f060013;
+        public static final int com_facebook_picker_done_button=0x7f060012;
+        public static final int com_facebook_picker_image=0x7f06000c;
+        public static final int com_facebook_picker_list_section_header=0x7f060010;
+        public static final int com_facebook_picker_list_view=0x7f060007;
+        public static final int com_facebook_picker_profile_pic_stub=0x7f06000d;
+        public static final int com_facebook_picker_row_activity_circle=0x7f06000a;
+        public static final int com_facebook_picker_search_text=0x7f060018;
+        public static final int com_facebook_picker_title=0x7f06000e;
+        public static final int com_facebook_picker_title_bar=0x7f060015;
+        public static final int com_facebook_picker_title_bar_stub=0x7f060014;
+        public static final int com_facebook_picker_top_bar=0x7f060011;
+        public static final int com_facebook_search_bar_view=0x7f060017;
+        public static final int com_facebook_tooltip_bubble_view_bottom_pointer=0x7f06001d;
+        public static final int com_facebook_tooltip_bubble_view_text_body=0x7f06001c;
+        public static final int com_facebook_tooltip_bubble_view_top_pointer=0x7f06001a;
+        public static final int com_facebook_usersettingsfragment_login_button=0x7f060020;
+        public static final int com_facebook_usersettingsfragment_logo_image=0x7f06001e;
+        public static final int com_facebook_usersettingsfragment_profile_name=0x7f06001f;
+        public static final int hybrid=0x7f060004;
+        public static final int large=0x7f060006;
+        public static final int none=0x7f060000;
+        public static final int normal=0x7f060001;
+        public static final int picker_subtitle=0x7f060016;
+        public static final int satellite=0x7f060002;
+        public static final int small=0x7f060005;
+        public static final int terrain=0x7f060003;
     }
     public static final class integer {
         public static final int google_play_services_version=0x7f070000;
@@ -471,126 +473,133 @@ containing a value of this type.
         public static final int com_facebook_usersettingsfragment=0x7f03000e;
     }
     public static final class string {
+        public static final int app_id=0x7f040020;
         /**   Title for notification shown when GooglePlayServices needs to be
-        enabled for a application to work. [CHAR LIMIT=70] 
+         enabled for a application to work. [CHAR LIMIT=70]
          */
-        public static final int auth_client_needs_enabling_title=0x7f060015;
+        public static final int auth_client_needs_enabling_title=0x7f040001;
         /**   Title for notification shown when GooglePlayServices needs to be
-        installed for a application to work. [CHAR LIMIT=70] 
+         installed for a application to work. [CHAR LIMIT=70]
          */
-        public static final int auth_client_needs_installation_title=0x7f060016;
+        public static final int auth_client_needs_installation_title=0x7f040002;
         /**   Title for notification shown when GooglePlayServices needs to be
-        udpated for a application to work. [CHAR LIMIT=70] 
+         udpated for a application to work. [CHAR LIMIT=70]
          */
-        public static final int auth_client_needs_update_title=0x7f060017;
+        public static final int auth_client_needs_update_title=0x7f040003;
         /**   Title for notification shown when GooglePlayServices is unavailable [CHAR LIMIT=42] 
          */
-        public static final int auth_client_play_services_err_notification_msg=0x7f060018;
+        public static final int auth_client_play_services_err_notification_msg=0x7f040004;
         /**   Requested by string saying which app requested the notification. [CHAR LIMIT=42] 
          */
-        public static final int auth_client_requested_by_msg=0x7f060019;
+        public static final int auth_client_requested_by_msg=0x7f040005;
         /**   Title for notification shown when a bad version of GooglePlayServices
-        has been installed and needs correction for an application to work.
-        [CHAR LIMIT=70] 
+         has been installed and needs correction for an application to work.
+         [CHAR LIMIT=70]
          */
-        public static final int auth_client_using_bad_version_title=0x7f060014;
-        public static final int com_facebook_choose_friends=0x7f060029;
-        public static final int com_facebook_dialogloginactivity_ok_button=0x7f06001a;
-        public static final int com_facebook_internet_permission_error_message=0x7f06002d;
-        public static final int com_facebook_internet_permission_error_title=0x7f06002c;
-        public static final int com_facebook_loading=0x7f06002b;
-        public static final int com_facebook_loginview_cancel_action=0x7f060020;
-        public static final int com_facebook_loginview_log_in_button=0x7f06001c;
-        public static final int com_facebook_loginview_log_out_action=0x7f06001f;
-        public static final int com_facebook_loginview_log_out_button=0x7f06001b;
-        public static final int com_facebook_loginview_logged_in_as=0x7f06001d;
-        public static final int com_facebook_loginview_logged_in_using_facebook=0x7f06001e;
-        public static final int com_facebook_logo_content_description=0x7f060021;
-        public static final int com_facebook_nearby=0x7f06002a;
-        public static final int com_facebook_picker_done_button_text=0x7f060028;
-        public static final int com_facebook_placepicker_subtitle_catetory_only_format=0x7f060026;
-        public static final int com_facebook_placepicker_subtitle_format=0x7f060025;
-        public static final int com_facebook_placepicker_subtitle_were_here_only_format=0x7f060027;
-        public static final int com_facebook_requesterror_password_changed=0x7f060030;
-        public static final int com_facebook_requesterror_permissions=0x7f060032;
-        public static final int com_facebook_requesterror_reconnect=0x7f060031;
-        public static final int com_facebook_requesterror_relogin=0x7f06002f;
-        public static final int com_facebook_requesterror_web_login=0x7f06002e;
-        public static final int com_facebook_tooltip_default=0x7f060033;
-        public static final int com_facebook_usersettingsfragment_log_in_button=0x7f060022;
-        public static final int com_facebook_usersettingsfragment_logged_in=0x7f060023;
-        public static final int com_facebook_usersettingsfragment_not_logged_in=0x7f060024;
+        public static final int auth_client_using_bad_version_title=0x7f040000;
+        public static final int com_facebook_choose_friends=0x7f040030;
+        public static final int com_facebook_dialogloginactivity_ok_button=0x7f040021;
+        public static final int com_facebook_internet_permission_error_message=0x7f040034;
+        public static final int com_facebook_internet_permission_error_title=0x7f040033;
+        public static final int com_facebook_loading=0x7f040032;
+        public static final int com_facebook_loginview_cancel_action=0x7f040027;
+        public static final int com_facebook_loginview_log_in_button=0x7f040023;
+        public static final int com_facebook_loginview_log_out_action=0x7f040026;
+        public static final int com_facebook_loginview_log_out_button=0x7f040022;
+        public static final int com_facebook_loginview_logged_in_as=0x7f040024;
+        public static final int com_facebook_loginview_logged_in_using_facebook=0x7f040025;
+        public static final int com_facebook_logo_content_description=0x7f040028;
+        public static final int com_facebook_nearby=0x7f040031;
+        public static final int com_facebook_picker_done_button_text=0x7f04002f;
+        public static final int com_facebook_placepicker_subtitle_catetory_only_format=0x7f04002d;
+        public static final int com_facebook_placepicker_subtitle_format=0x7f04002c;
+        public static final int com_facebook_placepicker_subtitle_were_here_only_format=0x7f04002e;
+        public static final int com_facebook_requesterror_password_changed=0x7f040037;
+        public static final int com_facebook_requesterror_permissions=0x7f040039;
+        public static final int com_facebook_requesterror_reconnect=0x7f040038;
+        public static final int com_facebook_requesterror_relogin=0x7f040036;
+        public static final int com_facebook_requesterror_web_login=0x7f040035;
+        public static final int com_facebook_tooltip_default=0x7f04003a;
+        public static final int com_facebook_usersettingsfragment_log_in_button=0x7f040029;
+        public static final int com_facebook_usersettingsfragment_logged_in=0x7f04002a;
+        public static final int com_facebook_usersettingsfragment_not_logged_in=0x7f04002b;
         /**  Button in confirmation dialog to enable Google Play services.  Clicking it
-        will direct user to application settings of Google Play services where they
-        can enable it [CHAR LIMIT=40] 
+         will direct user to application settings of Google Play services where they
+         can enable it [CHAR LIMIT=40]
          */
-        public static final int common_google_play_services_enable_button=0x7f060006;
+        public static final int common_google_play_services_enable_button=0x7f040011;
         /**  Message in confirmation dialog informing user they need to enable
-        Google Play services in application settings [CHAR LIMIT=NONE] 
+         Google Play services in application settings [CHAR LIMIT=NONE]
          */
-        public static final int common_google_play_services_enable_text=0x7f060005;
+        public static final int common_google_play_services_enable_text=0x7f040010;
         /**  Title of confirmation dialog informing user they need to enable
-        Google Play services in application settings [CHAR LIMIT=40] 
+         Google Play services in application settings [CHAR LIMIT=40]
          */
-        public static final int common_google_play_services_enable_title=0x7f060004;
+        public static final int common_google_play_services_enable_title=0x7f04000f;
+        public static final int common_google_play_services_error_notification_requested_by_msg=0x7f04000a;
         /**  Button in confirmation dialog for installing Google Play services [CHAR LIMIT=40] 
          */
-        public static final int common_google_play_services_install_button=0x7f060003;
+        public static final int common_google_play_services_install_button=0x7f04000e;
         /**  (For phones) Message in confirmation dialog informing user that
-        they need to install Google Play services (from Play Store) [CHAR LIMIT=NONE] 
+         they need to install Google Play services (from Play Store) [CHAR LIMIT=NONE]
          */
-        public static final int common_google_play_services_install_text_phone=0x7f060001;
+        public static final int common_google_play_services_install_text_phone=0x7f04000c;
         /**  (For tablets) Message in confirmation dialog informing user that
-        they need to install Google Play services (from Play Store) [CHAR LIMIT=NONE] 
+         they need to install Google Play services (from Play Store) [CHAR LIMIT=NONE]
          */
-        public static final int common_google_play_services_install_text_tablet=0x7f060002;
+        public static final int common_google_play_services_install_text_tablet=0x7f04000d;
         /**  Title of confirmation dialog informing user that they need to install
-        Google Play services (from Play Store) [CHAR LIMIT=40] 
+         Google Play services (from Play Store) [CHAR LIMIT=40]
          */
-        public static final int common_google_play_services_install_title=0x7f060000;
+        public static final int common_google_play_services_install_title=0x7f04000b;
         /**  Message in confirmation dialog informing the user that they provided an invalid account. [CHAR LIMIT=NONE] 
          */
-        public static final int common_google_play_services_invalid_account_text=0x7f06000c;
+        public static final int common_google_play_services_invalid_account_text=0x7f040017;
         /**  Title of confirmation dialog informing the user that they provided an invalid account. [CHAR LIMIT=40] 
          */
-        public static final int common_google_play_services_invalid_account_title=0x7f06000b;
+        public static final int common_google_play_services_invalid_account_title=0x7f040016;
+        public static final int common_google_play_services_needs_enabling_title=0x7f040009;
         /**  Message in confirmation dialog informing the user that a network error occurred. [CHAR LIMIT=NONE] 
          */
-        public static final int common_google_play_services_network_error_text=0x7f06000a;
+        public static final int common_google_play_services_network_error_text=0x7f040015;
         /**  Title of confirmation dialog informing the user that a network error occurred. [CHAR LIMIT=40] 
          */
-        public static final int common_google_play_services_network_error_title=0x7f060009;
+        public static final int common_google_play_services_network_error_title=0x7f040014;
+        public static final int common_google_play_services_notification_needs_installation_title=0x7f040007;
+        public static final int common_google_play_services_notification_needs_update_title=0x7f040008;
+        public static final int common_google_play_services_notification_ticker=0x7f040006;
         /**  Message in confirmation dialog informing user there is an unknown issue in Google Play
-        services [CHAR LIMIT=NONE] 
+         services [CHAR LIMIT=NONE]
          */
-        public static final int common_google_play_services_unknown_issue=0x7f06000d;
+        public static final int common_google_play_services_unknown_issue=0x7f040018;
         /**  Message in confirmation dialog informing user that date on the device is not correct,
-    causing certificate checks to fail. [CHAR LIMIT=NONE] 
+         causing certificate checks to fail. [CHAR LIMIT=NONE]
          */
-        public static final int common_google_play_services_unsupported_date_text=0x7f060010;
+        public static final int common_google_play_services_unsupported_date_text=0x7f04001b;
         /**  Message in confirmation dialog informing user that Google Play services is not supported on their device [CHAR LIMIT=NONE] 
          */
-        public static final int common_google_play_services_unsupported_text=0x7f06000f;
+        public static final int common_google_play_services_unsupported_text=0x7f04001a;
         /**  Title of confirmation dialog informing user that Google Play services is not supported on their device [CHAR LIMIT=40] 
          */
-        public static final int common_google_play_services_unsupported_title=0x7f06000e;
+        public static final int common_google_play_services_unsupported_title=0x7f040019;
         /**  Button in confirmation dialog for updating Google Play services [CHAR LIMIT=40] 
          */
-        public static final int common_google_play_services_update_button=0x7f060011;
+        public static final int common_google_play_services_update_button=0x7f04001c;
         /**  Message in confirmation dialog informing user that they need to update
-        Google Play services (from Play Store) [CHAR LIMIT=NONE] 
+         Google Play services (from Play Store) [CHAR LIMIT=NONE]
          */
-        public static final int common_google_play_services_update_text=0x7f060008;
+        public static final int common_google_play_services_update_text=0x7f040013;
         /**  Title of confirmation dialog informing user that they need to update
-        Google Play services (from Play Store) [CHAR LIMIT=40] 
+         Google Play services (from Play Store) [CHAR LIMIT=40]
          */
-        public static final int common_google_play_services_update_title=0x7f060007;
+        public static final int common_google_play_services_update_title=0x7f040012;
         /**  Sign-in button text [CHAR LIMIT=15] 
          */
-        public static final int common_signin_button_text=0x7f060012;
+        public static final int common_signin_button_text=0x7f04001d;
         /**  Long form sign-in button text [CHAR LIMIT=30] 
          */
-        public static final int common_signin_button_text_long=0x7f060013;
+        public static final int common_signin_button_text_long=0x7f04001e;
+        public static final int wallet_buy_button_place_holder=0x7f04001f;
     }
     public static final class style {
         public static final int com_facebook_loginview_default_style=0x7f090000;
@@ -599,663 +608,663 @@ containing a value of this type.
     }
     public static final class styleable {
         /** Attributes that can be used with a AdsAttrs.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AdsAttrs_adSize com.tachaeon.tictacrumble.TicTacRumble:adSize}</code></td><td>
-    The size of the ad.</td></tr>
-           <tr><td><code>{@link #AdsAttrs_adSizes com.tachaeon.tictacrumble.TicTacRumble:adSizes}</code></td><td>
-    A comma-separated list of the supported ad sizes.</td></tr>
-           <tr><td><code>{@link #AdsAttrs_adUnitId com.tachaeon.tictacrumble.TicTacRumble:adUnitId}</code></td><td> The ad unit ID.</td></tr>
-           </table>
-           @see #AdsAttrs_adSize
-           @see #AdsAttrs_adSizes
-           @see #AdsAttrs_adUnitId
+         <p>Includes the following attributes:</p>
+         <table>
+         <colgroup align="left" />
+         <colgroup align="left" />
+         <tr><th>Attribute</th><th>Description</th></tr>
+         <tr><td><code>{@link #AdsAttrs_adSize com.tachaeon.dropbeat:adSize}</code></td><td>
+         The size of the ad.</td></tr>
+         <tr><td><code>{@link #AdsAttrs_adSizes com.tachaeon.dropbeat:adSizes}</code></td><td>
+         A comma-separated list of the supported ad sizes.</td></tr>
+         <tr><td><code>{@link #AdsAttrs_adUnitId com.tachaeon.dropbeat:adUnitId}</code></td><td> The ad unit ID.</td></tr>
+         </table>
+         @see #AdsAttrs_adSize
+         @see #AdsAttrs_adSizes
+         @see #AdsAttrs_adUnitId
          */
         public static final int[] AdsAttrs = {
-            0x7f010000, 0x7f010001, 0x7f010002
+                0x7f010000, 0x7f010001, 0x7f010002
         };
         /**
-          <p>
-          @attr description
-          
-    The size of the ad. It must be one of BANNER, FULL_BANNER, LEADERBOARD,
-    MEDIUM_RECTANGLE, SMART_BANNER, WIDE_SKYSCRAPER, or
-    &lt;width&gt;x&lt;height&gt;.
-    
+         <p>
+         @attr description
+
+         The size of the ad. It must be one of BANNER, FULL_BANNER, LEADERBOARD,
+         MEDIUM_RECTANGLE, SMART_BANNER, WIDE_SKYSCRAPER, or
+         &lt;width&gt;x&lt;height&gt;.
 
 
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.tachaeon.tictacrumble.TicTacRumble:adSize
-        */
+
+         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
+         <p>This is a private symbol.
+         @attr name com.tachaeon.dropbeat:adSize
+         */
         public static final int AdsAttrs_adSize = 0;
         /**
-          <p>
-          @attr description
-          
-    A comma-separated list of the supported ad sizes. The sizes must be one of
-    BANNER, FULL_BANNER, LEADERBOARD, MEDIUM_RECTANGLE, SMART_BANNER,
-    WIDE_SKYSCRAPER, or &lt;width&gt;x&lt;height&gt;.
-    
+         <p>
+         @attr description
+
+         A comma-separated list of the supported ad sizes. The sizes must be one of
+         BANNER, FULL_BANNER, LEADERBOARD, MEDIUM_RECTANGLE, SMART_BANNER,
+         WIDE_SKYSCRAPER, or &lt;width&gt;x&lt;height&gt;.
 
 
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.tachaeon.tictacrumble.TicTacRumble:adSizes
-        */
+
+         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
+         <p>This is a private symbol.
+         @attr name com.tachaeon.dropbeat:adSizes
+         */
         public static final int AdsAttrs_adSizes = 1;
         /**
-          <p>
-          @attr description
-           The ad unit ID. 
+         <p>
+         @attr description
+         The ad unit ID.
 
 
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.tachaeon.tictacrumble.TicTacRumble:adUnitId
-        */
+         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
+         <p>This is a private symbol.
+         @attr name com.tachaeon.dropbeat:adUnitId
+         */
         public static final int AdsAttrs_adUnitId = 2;
         /** Attributes that can be used with a MapAttrs.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MapAttrs_cameraBearing com.tachaeon.tictacrumble.TicTacRumble:cameraBearing}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraTargetLat com.tachaeon.tictacrumble.TicTacRumble:cameraTargetLat}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraTargetLng com.tachaeon.tictacrumble.TicTacRumble:cameraTargetLng}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraTilt com.tachaeon.tictacrumble.TicTacRumble:cameraTilt}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraZoom com.tachaeon.tictacrumble.TicTacRumble:cameraZoom}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_mapType com.tachaeon.tictacrumble.TicTacRumble:mapType}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiCompass com.tachaeon.tictacrumble.TicTacRumble:uiCompass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiRotateGestures com.tachaeon.tictacrumble.TicTacRumble:uiRotateGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiScrollGestures com.tachaeon.tictacrumble.TicTacRumble:uiScrollGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiTiltGestures com.tachaeon.tictacrumble.TicTacRumble:uiTiltGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiZoomControls com.tachaeon.tictacrumble.TicTacRumble:uiZoomControls}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiZoomGestures com.tachaeon.tictacrumble.TicTacRumble:uiZoomGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_useViewLifecycle com.tachaeon.tictacrumble.TicTacRumble:useViewLifecycle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_zOrderOnTop com.tachaeon.tictacrumble.TicTacRumble:zOrderOnTop}</code></td><td></td></tr>
-           </table>
-           @see #MapAttrs_cameraBearing
-           @see #MapAttrs_cameraTargetLat
-           @see #MapAttrs_cameraTargetLng
-           @see #MapAttrs_cameraTilt
-           @see #MapAttrs_cameraZoom
-           @see #MapAttrs_mapType
-           @see #MapAttrs_uiCompass
-           @see #MapAttrs_uiRotateGestures
-           @see #MapAttrs_uiScrollGestures
-           @see #MapAttrs_uiTiltGestures
-           @see #MapAttrs_uiZoomControls
-           @see #MapAttrs_uiZoomGestures
-           @see #MapAttrs_useViewLifecycle
-           @see #MapAttrs_zOrderOnTop
+         <p>Includes the following attributes:</p>
+         <table>
+         <colgroup align="left" />
+         <colgroup align="left" />
+         <tr><th>Attribute</th><th>Description</th></tr>
+         <tr><td><code>{@link #MapAttrs_cameraBearing com.tachaeon.dropbeat:cameraBearing}</code></td><td></td></tr>
+         <tr><td><code>{@link #MapAttrs_cameraTargetLat com.tachaeon.dropbeat:cameraTargetLat}</code></td><td></td></tr>
+         <tr><td><code>{@link #MapAttrs_cameraTargetLng com.tachaeon.dropbeat:cameraTargetLng}</code></td><td></td></tr>
+         <tr><td><code>{@link #MapAttrs_cameraTilt com.tachaeon.dropbeat:cameraTilt}</code></td><td></td></tr>
+         <tr><td><code>{@link #MapAttrs_cameraZoom com.tachaeon.dropbeat:cameraZoom}</code></td><td></td></tr>
+         <tr><td><code>{@link #MapAttrs_mapType com.tachaeon.dropbeat:mapType}</code></td><td></td></tr>
+         <tr><td><code>{@link #MapAttrs_uiCompass com.tachaeon.dropbeat:uiCompass}</code></td><td></td></tr>
+         <tr><td><code>{@link #MapAttrs_uiRotateGestures com.tachaeon.dropbeat:uiRotateGestures}</code></td><td></td></tr>
+         <tr><td><code>{@link #MapAttrs_uiScrollGestures com.tachaeon.dropbeat:uiScrollGestures}</code></td><td></td></tr>
+         <tr><td><code>{@link #MapAttrs_uiTiltGestures com.tachaeon.dropbeat:uiTiltGestures}</code></td><td></td></tr>
+         <tr><td><code>{@link #MapAttrs_uiZoomControls com.tachaeon.dropbeat:uiZoomControls}</code></td><td></td></tr>
+         <tr><td><code>{@link #MapAttrs_uiZoomGestures com.tachaeon.dropbeat:uiZoomGestures}</code></td><td></td></tr>
+         <tr><td><code>{@link #MapAttrs_useViewLifecycle com.tachaeon.dropbeat:useViewLifecycle}</code></td><td></td></tr>
+         <tr><td><code>{@link #MapAttrs_zOrderOnTop com.tachaeon.dropbeat:zOrderOnTop}</code></td><td></td></tr>
+         </table>
+         @see #MapAttrs_cameraBearing
+         @see #MapAttrs_cameraTargetLat
+         @see #MapAttrs_cameraTargetLng
+         @see #MapAttrs_cameraTilt
+         @see #MapAttrs_cameraZoom
+         @see #MapAttrs_mapType
+         @see #MapAttrs_uiCompass
+         @see #MapAttrs_uiRotateGestures
+         @see #MapAttrs_uiScrollGestures
+         @see #MapAttrs_uiTiltGestures
+         @see #MapAttrs_uiZoomControls
+         @see #MapAttrs_uiZoomGestures
+         @see #MapAttrs_useViewLifecycle
+         @see #MapAttrs_zOrderOnTop
          */
         public static final int[] MapAttrs = {
-            0x7f010003, 0x7f010004, 0x7f010005, 0x7f010006,
-            0x7f010007, 0x7f010008, 0x7f010009, 0x7f01000a,
-            0x7f01000b, 0x7f01000c, 0x7f01000d, 0x7f01000e,
-            0x7f01000f, 0x7f010010
+                0x7f010003, 0x7f010004, 0x7f010005, 0x7f010006,
+                0x7f010007, 0x7f010008, 0x7f010009, 0x7f01000a,
+                0x7f01000b, 0x7f01000c, 0x7f01000d, 0x7f01000e,
+                0x7f01000f, 0x7f010010
         };
         /**
-          <p>This symbol is the offset where the {@link com.tachaeon.tictacrumble.TicTacRumble.R.attr#cameraBearing}
-          attribute's value can be found in the {@link #MapAttrs} array.
+         <p>This symbol is the offset where the {@link com.tachaeon.dropbeat.R.attr#cameraBearing}
+         attribute's value can be found in the {@link #MapAttrs} array.
 
 
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.tachaeon.tictacrumble.TicTacRumble:cameraBearing
-        */
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
+         @attr name com.tachaeon.dropbeat:cameraBearing
+         */
         public static final int MapAttrs_cameraBearing = 1;
         /**
-          <p>This symbol is the offset where the {@link com.tachaeon.tictacrumble.TicTacRumble.R.attr#cameraTargetLat}
-          attribute's value can be found in the {@link #MapAttrs} array.
+         <p>This symbol is the offset where the {@link com.tachaeon.dropbeat.R.attr#cameraTargetLat}
+         attribute's value can be found in the {@link #MapAttrs} array.
 
 
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.tachaeon.tictacrumble.TicTacRumble:cameraTargetLat
-        */
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
+         @attr name com.tachaeon.dropbeat:cameraTargetLat
+         */
         public static final int MapAttrs_cameraTargetLat = 2;
         /**
-          <p>This symbol is the offset where the {@link com.tachaeon.tictacrumble.TicTacRumble.R.attr#cameraTargetLng}
-          attribute's value can be found in the {@link #MapAttrs} array.
+         <p>This symbol is the offset where the {@link com.tachaeon.dropbeat.R.attr#cameraTargetLng}
+         attribute's value can be found in the {@link #MapAttrs} array.
 
 
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.tachaeon.tictacrumble.TicTacRumble:cameraTargetLng
-        */
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
+         @attr name com.tachaeon.dropbeat:cameraTargetLng
+         */
         public static final int MapAttrs_cameraTargetLng = 3;
         /**
-          <p>This symbol is the offset where the {@link com.tachaeon.tictacrumble.TicTacRumble.R.attr#cameraTilt}
-          attribute's value can be found in the {@link #MapAttrs} array.
+         <p>This symbol is the offset where the {@link com.tachaeon.dropbeat.R.attr#cameraTilt}
+         attribute's value can be found in the {@link #MapAttrs} array.
 
 
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.tachaeon.tictacrumble.TicTacRumble:cameraTilt
-        */
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
+         @attr name com.tachaeon.dropbeat:cameraTilt
+         */
         public static final int MapAttrs_cameraTilt = 4;
         /**
-          <p>This symbol is the offset where the {@link com.tachaeon.tictacrumble.TicTacRumble.R.attr#cameraZoom}
-          attribute's value can be found in the {@link #MapAttrs} array.
+         <p>This symbol is the offset where the {@link com.tachaeon.dropbeat.R.attr#cameraZoom}
+         attribute's value can be found in the {@link #MapAttrs} array.
 
 
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.tachaeon.tictacrumble.TicTacRumble:cameraZoom
-        */
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
+         @attr name com.tachaeon.dropbeat:cameraZoom
+         */
         public static final int MapAttrs_cameraZoom = 5;
         /**
-          <p>This symbol is the offset where the {@link com.tachaeon.tictacrumble.TicTacRumble.R.attr#mapType}
-          attribute's value can be found in the {@link #MapAttrs} array.
+         <p>This symbol is the offset where the {@link com.tachaeon.dropbeat.R.attr#mapType}
+         attribute's value can be found in the {@link #MapAttrs} array.
 
 
-          <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>none</code></td><td>0</td><td></td></tr>
-<tr><td><code>normal</code></td><td>1</td><td></td></tr>
-<tr><td><code>satellite</code></td><td>2</td><td></td></tr>
-<tr><td><code>terrain</code></td><td>3</td><td></td></tr>
-<tr><td><code>hybrid</code></td><td>4</td><td></td></tr>
-</table>
-          @attr name com.tachaeon.tictacrumble.TicTacRumble:mapType
-        */
+         <p>Must be one of the following constant values.</p>
+         <table>
+         <colgroup align="left" />
+         <colgroup align="left" />
+         <colgroup align="left" />
+         <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+         <tr><td><code>none</code></td><td>0</td><td></td></tr>
+         <tr><td><code>normal</code></td><td>1</td><td></td></tr>
+         <tr><td><code>satellite</code></td><td>2</td><td></td></tr>
+         <tr><td><code>terrain</code></td><td>3</td><td></td></tr>
+         <tr><td><code>hybrid</code></td><td>4</td><td></td></tr>
+         </table>
+         @attr name com.tachaeon.dropbeat:mapType
+         */
         public static final int MapAttrs_mapType = 0;
         /**
-          <p>This symbol is the offset where the {@link com.tachaeon.tictacrumble.TicTacRumble.R.attr#uiCompass}
-          attribute's value can be found in the {@link #MapAttrs} array.
+         <p>This symbol is the offset where the {@link com.tachaeon.dropbeat.R.attr#uiCompass}
+         attribute's value can be found in the {@link #MapAttrs} array.
 
 
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.tachaeon.tictacrumble.TicTacRumble:uiCompass
-        */
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
+         @attr name com.tachaeon.dropbeat:uiCompass
+         */
         public static final int MapAttrs_uiCompass = 6;
         /**
-          <p>This symbol is the offset where the {@link com.tachaeon.tictacrumble.TicTacRumble.R.attr#uiRotateGestures}
-          attribute's value can be found in the {@link #MapAttrs} array.
+         <p>This symbol is the offset where the {@link com.tachaeon.dropbeat.R.attr#uiRotateGestures}
+         attribute's value can be found in the {@link #MapAttrs} array.
 
 
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.tachaeon.tictacrumble.TicTacRumble:uiRotateGestures
-        */
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
+         @attr name com.tachaeon.dropbeat:uiRotateGestures
+         */
         public static final int MapAttrs_uiRotateGestures = 7;
         /**
-          <p>This symbol is the offset where the {@link com.tachaeon.tictacrumble.TicTacRumble.R.attr#uiScrollGestures}
-          attribute's value can be found in the {@link #MapAttrs} array.
+         <p>This symbol is the offset where the {@link com.tachaeon.dropbeat.R.attr#uiScrollGestures}
+         attribute's value can be found in the {@link #MapAttrs} array.
 
 
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.tachaeon.tictacrumble.TicTacRumble:uiScrollGestures
-        */
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
+         @attr name com.tachaeon.dropbeat:uiScrollGestures
+         */
         public static final int MapAttrs_uiScrollGestures = 8;
         /**
-          <p>This symbol is the offset where the {@link com.tachaeon.tictacrumble.TicTacRumble.R.attr#uiTiltGestures}
-          attribute's value can be found in the {@link #MapAttrs} array.
+         <p>This symbol is the offset where the {@link com.tachaeon.dropbeat.R.attr#uiTiltGestures}
+         attribute's value can be found in the {@link #MapAttrs} array.
 
 
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.tachaeon.tictacrumble.TicTacRumble:uiTiltGestures
-        */
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
+         @attr name com.tachaeon.dropbeat:uiTiltGestures
+         */
         public static final int MapAttrs_uiTiltGestures = 9;
         /**
-          <p>This symbol is the offset where the {@link com.tachaeon.tictacrumble.TicTacRumble.R.attr#uiZoomControls}
-          attribute's value can be found in the {@link #MapAttrs} array.
+         <p>This symbol is the offset where the {@link com.tachaeon.dropbeat.R.attr#uiZoomControls}
+         attribute's value can be found in the {@link #MapAttrs} array.
 
 
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.tachaeon.tictacrumble.TicTacRumble:uiZoomControls
-        */
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
+         @attr name com.tachaeon.dropbeat:uiZoomControls
+         */
         public static final int MapAttrs_uiZoomControls = 10;
         /**
-          <p>This symbol is the offset where the {@link com.tachaeon.tictacrumble.TicTacRumble.R.attr#uiZoomGestures}
-          attribute's value can be found in the {@link #MapAttrs} array.
+         <p>This symbol is the offset where the {@link com.tachaeon.dropbeat.R.attr#uiZoomGestures}
+         attribute's value can be found in the {@link #MapAttrs} array.
 
 
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.tachaeon.tictacrumble.TicTacRumble:uiZoomGestures
-        */
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
+         @attr name com.tachaeon.dropbeat:uiZoomGestures
+         */
         public static final int MapAttrs_uiZoomGestures = 11;
         /**
-          <p>This symbol is the offset where the {@link com.tachaeon.tictacrumble.TicTacRumble.R.attr#useViewLifecycle}
-          attribute's value can be found in the {@link #MapAttrs} array.
+         <p>This symbol is the offset where the {@link com.tachaeon.dropbeat.R.attr#useViewLifecycle}
+         attribute's value can be found in the {@link #MapAttrs} array.
 
 
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.tachaeon.tictacrumble.TicTacRumble:useViewLifecycle
-        */
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
+         @attr name com.tachaeon.dropbeat:useViewLifecycle
+         */
         public static final int MapAttrs_useViewLifecycle = 12;
         /**
-          <p>This symbol is the offset where the {@link com.tachaeon.tictacrumble.TicTacRumble.R.attr#zOrderOnTop}
-          attribute's value can be found in the {@link #MapAttrs} array.
+         <p>This symbol is the offset where the {@link com.tachaeon.dropbeat.R.attr#zOrderOnTop}
+         attribute's value can be found in the {@link #MapAttrs} array.
 
 
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.tachaeon.tictacrumble.TicTacRumble:zOrderOnTop
-        */
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
+         @attr name com.tachaeon.dropbeat:zOrderOnTop
+         */
         public static final int MapAttrs_zOrderOnTop = 13;
         /** Attributes that can be used with a com_facebook_friend_picker_fragment.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #com_facebook_friend_picker_fragment_multi_select com.tachaeon.tictacrumble.TicTacRumble:multi_select}</code></td><td></td></tr>
-           </table>
-           @see #com_facebook_friend_picker_fragment_multi_select
+         <p>Includes the following attributes:</p>
+         <table>
+         <colgroup align="left" />
+         <colgroup align="left" />
+         <tr><th>Attribute</th><th>Description</th></tr>
+         <tr><td><code>{@link #com_facebook_friend_picker_fragment_multi_select com.tachaeon.dropbeat:multi_select}</code></td><td></td></tr>
+         </table>
+         @see #com_facebook_friend_picker_fragment_multi_select
          */
         public static final int[] com_facebook_friend_picker_fragment = {
-            0x7f010018
+                0x7f010018
         };
         /**
-          <p>This symbol is the offset where the {@link com.tachaeon.tictacrumble.TicTacRumble.R.attr#multi_select}
-          attribute's value can be found in the {@link #com_facebook_friend_picker_fragment} array.
+         <p>This symbol is the offset where the {@link com.tachaeon.dropbeat.R.attr#multi_select}
+         attribute's value can be found in the {@link #com_facebook_friend_picker_fragment} array.
 
 
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.tachaeon.tictacrumble.TicTacRumble:multi_select
-        */
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
+         @attr name com.tachaeon.dropbeat:multi_select
+         */
         public static final int com_facebook_friend_picker_fragment_multi_select = 0;
         /** Attributes that can be used with a com_facebook_login_view.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #com_facebook_login_view_confirm_logout com.tachaeon.tictacrumble.TicTacRumble:confirm_logout}</code></td><td></td></tr>
-           <tr><td><code>{@link #com_facebook_login_view_fetch_user_info com.tachaeon.tictacrumble.TicTacRumble:fetch_user_info}</code></td><td></td></tr>
-           <tr><td><code>{@link #com_facebook_login_view_login_text com.tachaeon.tictacrumble.TicTacRumble:login_text}</code></td><td></td></tr>
-           <tr><td><code>{@link #com_facebook_login_view_logout_text com.tachaeon.tictacrumble.TicTacRumble:logout_text}</code></td><td></td></tr>
-           </table>
-           @see #com_facebook_login_view_confirm_logout
-           @see #com_facebook_login_view_fetch_user_info
-           @see #com_facebook_login_view_login_text
-           @see #com_facebook_login_view_logout_text
+         <p>Includes the following attributes:</p>
+         <table>
+         <colgroup align="left" />
+         <colgroup align="left" />
+         <tr><th>Attribute</th><th>Description</th></tr>
+         <tr><td><code>{@link #com_facebook_login_view_confirm_logout com.tachaeon.dropbeat:confirm_logout}</code></td><td></td></tr>
+         <tr><td><code>{@link #com_facebook_login_view_fetch_user_info com.tachaeon.dropbeat:fetch_user_info}</code></td><td></td></tr>
+         <tr><td><code>{@link #com_facebook_login_view_login_text com.tachaeon.dropbeat:login_text}</code></td><td></td></tr>
+         <tr><td><code>{@link #com_facebook_login_view_logout_text com.tachaeon.dropbeat:logout_text}</code></td><td></td></tr>
+         </table>
+         @see #com_facebook_login_view_confirm_logout
+         @see #com_facebook_login_view_fetch_user_info
+         @see #com_facebook_login_view_login_text
+         @see #com_facebook_login_view_logout_text
          */
         public static final int[] com_facebook_login_view = {
-            0x7f01001d, 0x7f01001e, 0x7f01001f, 0x7f010020
+                0x7f01001d, 0x7f01001e, 0x7f01001f, 0x7f010020
         };
         /**
-          <p>This symbol is the offset where the {@link com.tachaeon.tictacrumble.TicTacRumble.R.attr#confirm_logout}
-          attribute's value can be found in the {@link #com_facebook_login_view} array.
+         <p>This symbol is the offset where the {@link com.tachaeon.dropbeat.R.attr#confirm_logout}
+         attribute's value can be found in the {@link #com_facebook_login_view} array.
 
 
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.tachaeon.tictacrumble.TicTacRumble:confirm_logout
-        */
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
+         @attr name com.tachaeon.dropbeat:confirm_logout
+         */
         public static final int com_facebook_login_view_confirm_logout = 0;
         /**
-          <p>This symbol is the offset where the {@link com.tachaeon.tictacrumble.TicTacRumble.R.attr#fetch_user_info}
-          attribute's value can be found in the {@link #com_facebook_login_view} array.
+         <p>This symbol is the offset where the {@link com.tachaeon.dropbeat.R.attr#fetch_user_info}
+         attribute's value can be found in the {@link #com_facebook_login_view} array.
 
 
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.tachaeon.tictacrumble.TicTacRumble:fetch_user_info
-        */
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
+         @attr name com.tachaeon.dropbeat:fetch_user_info
+         */
         public static final int com_facebook_login_view_fetch_user_info = 1;
         /**
-          <p>This symbol is the offset where the {@link com.tachaeon.tictacrumble.TicTacRumble.R.attr#login_text}
-          attribute's value can be found in the {@link #com_facebook_login_view} array.
+         <p>This symbol is the offset where the {@link com.tachaeon.dropbeat.R.attr#login_text}
+         attribute's value can be found in the {@link #com_facebook_login_view} array.
 
 
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.tachaeon.tictacrumble.TicTacRumble:login_text
-        */
+         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
+         @attr name com.tachaeon.dropbeat:login_text
+         */
         public static final int com_facebook_login_view_login_text = 2;
         /**
-          <p>This symbol is the offset where the {@link com.tachaeon.tictacrumble.TicTacRumble.R.attr#logout_text}
-          attribute's value can be found in the {@link #com_facebook_login_view} array.
+         <p>This symbol is the offset where the {@link com.tachaeon.dropbeat.R.attr#logout_text}
+         attribute's value can be found in the {@link #com_facebook_login_view} array.
 
 
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.tachaeon.tictacrumble.TicTacRumble:logout_text
-        */
+         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
+         @attr name com.tachaeon.dropbeat:logout_text
+         */
         public static final int com_facebook_login_view_logout_text = 3;
         /** Attributes that can be used with a com_facebook_picker_fragment.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #com_facebook_picker_fragment_done_button_background com.tachaeon.tictacrumble.TicTacRumble:done_button_background}</code></td><td></td></tr>
-           <tr><td><code>{@link #com_facebook_picker_fragment_done_button_text com.tachaeon.tictacrumble.TicTacRumble:done_button_text}</code></td><td></td></tr>
-           <tr><td><code>{@link #com_facebook_picker_fragment_extra_fields com.tachaeon.tictacrumble.TicTacRumble:extra_fields}</code></td><td></td></tr>
-           <tr><td><code>{@link #com_facebook_picker_fragment_show_pictures com.tachaeon.tictacrumble.TicTacRumble:show_pictures}</code></td><td></td></tr>
-           <tr><td><code>{@link #com_facebook_picker_fragment_show_title_bar com.tachaeon.tictacrumble.TicTacRumble:show_title_bar}</code></td><td></td></tr>
-           <tr><td><code>{@link #com_facebook_picker_fragment_title_bar_background com.tachaeon.tictacrumble.TicTacRumble:title_bar_background}</code></td><td></td></tr>
-           <tr><td><code>{@link #com_facebook_picker_fragment_title_text com.tachaeon.tictacrumble.TicTacRumble:title_text}</code></td><td></td></tr>
-           </table>
-           @see #com_facebook_picker_fragment_done_button_background
-           @see #com_facebook_picker_fragment_done_button_text
-           @see #com_facebook_picker_fragment_extra_fields
-           @see #com_facebook_picker_fragment_show_pictures
-           @see #com_facebook_picker_fragment_show_title_bar
-           @see #com_facebook_picker_fragment_title_bar_background
-           @see #com_facebook_picker_fragment_title_text
+         <p>Includes the following attributes:</p>
+         <table>
+         <colgroup align="left" />
+         <colgroup align="left" />
+         <tr><th>Attribute</th><th>Description</th></tr>
+         <tr><td><code>{@link #com_facebook_picker_fragment_done_button_background com.tachaeon.dropbeat:done_button_background}</code></td><td></td></tr>
+         <tr><td><code>{@link #com_facebook_picker_fragment_done_button_text com.tachaeon.dropbeat:done_button_text}</code></td><td></td></tr>
+         <tr><td><code>{@link #com_facebook_picker_fragment_extra_fields com.tachaeon.dropbeat:extra_fields}</code></td><td></td></tr>
+         <tr><td><code>{@link #com_facebook_picker_fragment_show_pictures com.tachaeon.dropbeat:show_pictures}</code></td><td></td></tr>
+         <tr><td><code>{@link #com_facebook_picker_fragment_show_title_bar com.tachaeon.dropbeat:show_title_bar}</code></td><td></td></tr>
+         <tr><td><code>{@link #com_facebook_picker_fragment_title_bar_background com.tachaeon.dropbeat:title_bar_background}</code></td><td></td></tr>
+         <tr><td><code>{@link #com_facebook_picker_fragment_title_text com.tachaeon.dropbeat:title_text}</code></td><td></td></tr>
+         </table>
+         @see #com_facebook_picker_fragment_done_button_background
+         @see #com_facebook_picker_fragment_done_button_text
+         @see #com_facebook_picker_fragment_extra_fields
+         @see #com_facebook_picker_fragment_show_pictures
+         @see #com_facebook_picker_fragment_show_title_bar
+         @see #com_facebook_picker_fragment_title_bar_background
+         @see #com_facebook_picker_fragment_title_text
          */
         public static final int[] com_facebook_picker_fragment = {
-            0x7f010011, 0x7f010012, 0x7f010013, 0x7f010014,
-            0x7f010015, 0x7f010016, 0x7f010017
+                0x7f010011, 0x7f010012, 0x7f010013, 0x7f010014,
+                0x7f010015, 0x7f010016, 0x7f010017
         };
         /**
-          <p>This symbol is the offset where the {@link com.tachaeon.tictacrumble.TicTacRumble.R.attr#done_button_background}
-          attribute's value can be found in the {@link #com_facebook_picker_fragment} array.
+         <p>This symbol is the offset where the {@link com.tachaeon.dropbeat.R.attr#done_button_background}
+         attribute's value can be found in the {@link #com_facebook_picker_fragment} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tachaeon.tictacrumble.TicTacRumble:done_button_background
-        */
+         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         @attr name com.tachaeon.dropbeat:done_button_background
+         */
         public static final int com_facebook_picker_fragment_done_button_background = 6;
         /**
-          <p>This symbol is the offset where the {@link com.tachaeon.tictacrumble.TicTacRumble.R.attr#done_button_text}
-          attribute's value can be found in the {@link #com_facebook_picker_fragment} array.
+         <p>This symbol is the offset where the {@link com.tachaeon.dropbeat.R.attr#done_button_text}
+         attribute's value can be found in the {@link #com_facebook_picker_fragment} array.
 
 
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.tachaeon.tictacrumble.TicTacRumble:done_button_text
-        */
+         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
+         @attr name com.tachaeon.dropbeat:done_button_text
+         */
         public static final int com_facebook_picker_fragment_done_button_text = 4;
         /**
-          <p>This symbol is the offset where the {@link com.tachaeon.tictacrumble.TicTacRumble.R.attr#extra_fields}
-          attribute's value can be found in the {@link #com_facebook_picker_fragment} array.
+         <p>This symbol is the offset where the {@link com.tachaeon.dropbeat.R.attr#extra_fields}
+         attribute's value can be found in the {@link #com_facebook_picker_fragment} array.
 
 
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.tachaeon.tictacrumble.TicTacRumble:extra_fields
-        */
+         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
+         @attr name com.tachaeon.dropbeat:extra_fields
+         */
         public static final int com_facebook_picker_fragment_extra_fields = 1;
         /**
-          <p>This symbol is the offset where the {@link com.tachaeon.tictacrumble.TicTacRumble.R.attr#show_pictures}
-          attribute's value can be found in the {@link #com_facebook_picker_fragment} array.
+         <p>This symbol is the offset where the {@link com.tachaeon.dropbeat.R.attr#show_pictures}
+         attribute's value can be found in the {@link #com_facebook_picker_fragment} array.
 
 
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.tachaeon.tictacrumble.TicTacRumble:show_pictures
-        */
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
+         @attr name com.tachaeon.dropbeat:show_pictures
+         */
         public static final int com_facebook_picker_fragment_show_pictures = 0;
         /**
-          <p>This symbol is the offset where the {@link com.tachaeon.tictacrumble.TicTacRumble.R.attr#show_title_bar}
-          attribute's value can be found in the {@link #com_facebook_picker_fragment} array.
+         <p>This symbol is the offset where the {@link com.tachaeon.dropbeat.R.attr#show_title_bar}
+         attribute's value can be found in the {@link #com_facebook_picker_fragment} array.
 
 
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.tachaeon.tictacrumble.TicTacRumble:show_title_bar
-        */
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
+         @attr name com.tachaeon.dropbeat:show_title_bar
+         */
         public static final int com_facebook_picker_fragment_show_title_bar = 2;
         /**
-          <p>This symbol is the offset where the {@link com.tachaeon.tictacrumble.TicTacRumble.R.attr#title_bar_background}
-          attribute's value can be found in the {@link #com_facebook_picker_fragment} array.
+         <p>This symbol is the offset where the {@link com.tachaeon.dropbeat.R.attr#title_bar_background}
+         attribute's value can be found in the {@link #com_facebook_picker_fragment} array.
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.tachaeon.tictacrumble.TicTacRumble:title_bar_background
-        */
+         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         @attr name com.tachaeon.dropbeat:title_bar_background
+         */
         public static final int com_facebook_picker_fragment_title_bar_background = 5;
         /**
-          <p>This symbol is the offset where the {@link com.tachaeon.tictacrumble.TicTacRumble.R.attr#title_text}
-          attribute's value can be found in the {@link #com_facebook_picker_fragment} array.
+         <p>This symbol is the offset where the {@link com.tachaeon.dropbeat.R.attr#title_text}
+         attribute's value can be found in the {@link #com_facebook_picker_fragment} array.
 
 
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.tachaeon.tictacrumble.TicTacRumble:title_text
-        */
+         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
+         @attr name com.tachaeon.dropbeat:title_text
+         */
         public static final int com_facebook_picker_fragment_title_text = 3;
         /** Attributes that can be used with a com_facebook_place_picker_fragment.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #com_facebook_place_picker_fragment_radius_in_meters com.tachaeon.tictacrumble.TicTacRumble:radius_in_meters}</code></td><td></td></tr>
-           <tr><td><code>{@link #com_facebook_place_picker_fragment_results_limit com.tachaeon.tictacrumble.TicTacRumble:results_limit}</code></td><td></td></tr>
-           <tr><td><code>{@link #com_facebook_place_picker_fragment_search_text com.tachaeon.tictacrumble.TicTacRumble:search_text}</code></td><td></td></tr>
-           <tr><td><code>{@link #com_facebook_place_picker_fragment_show_search_box com.tachaeon.tictacrumble.TicTacRumble:show_search_box}</code></td><td></td></tr>
-           </table>
-           @see #com_facebook_place_picker_fragment_radius_in_meters
-           @see #com_facebook_place_picker_fragment_results_limit
-           @see #com_facebook_place_picker_fragment_search_text
-           @see #com_facebook_place_picker_fragment_show_search_box
+         <p>Includes the following attributes:</p>
+         <table>
+         <colgroup align="left" />
+         <colgroup align="left" />
+         <tr><th>Attribute</th><th>Description</th></tr>
+         <tr><td><code>{@link #com_facebook_place_picker_fragment_radius_in_meters com.tachaeon.dropbeat:radius_in_meters}</code></td><td></td></tr>
+         <tr><td><code>{@link #com_facebook_place_picker_fragment_results_limit com.tachaeon.dropbeat:results_limit}</code></td><td></td></tr>
+         <tr><td><code>{@link #com_facebook_place_picker_fragment_search_text com.tachaeon.dropbeat:search_text}</code></td><td></td></tr>
+         <tr><td><code>{@link #com_facebook_place_picker_fragment_show_search_box com.tachaeon.dropbeat:show_search_box}</code></td><td></td></tr>
+         </table>
+         @see #com_facebook_place_picker_fragment_radius_in_meters
+         @see #com_facebook_place_picker_fragment_results_limit
+         @see #com_facebook_place_picker_fragment_search_text
+         @see #com_facebook_place_picker_fragment_show_search_box
          */
         public static final int[] com_facebook_place_picker_fragment = {
-            0x7f010019, 0x7f01001a, 0x7f01001b, 0x7f01001c
+                0x7f010019, 0x7f01001a, 0x7f01001b, 0x7f01001c
         };
         /**
-          <p>This symbol is the offset where the {@link com.tachaeon.tictacrumble.TicTacRumble.R.attr#radius_in_meters}
-          attribute's value can be found in the {@link #com_facebook_place_picker_fragment} array.
+         <p>This symbol is the offset where the {@link com.tachaeon.dropbeat.R.attr#radius_in_meters}
+         attribute's value can be found in the {@link #com_facebook_place_picker_fragment} array.
 
 
-          <p>Must be an integer value, such as "<code>100</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.tachaeon.tictacrumble.TicTacRumble:radius_in_meters
-        */
+         <p>Must be an integer value, such as "<code>100</code>".
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
+         @attr name com.tachaeon.dropbeat:radius_in_meters
+         */
         public static final int com_facebook_place_picker_fragment_radius_in_meters = 0;
         /**
-          <p>This symbol is the offset where the {@link com.tachaeon.tictacrumble.TicTacRumble.R.attr#results_limit}
-          attribute's value can be found in the {@link #com_facebook_place_picker_fragment} array.
+         <p>This symbol is the offset where the {@link com.tachaeon.dropbeat.R.attr#results_limit}
+         attribute's value can be found in the {@link #com_facebook_place_picker_fragment} array.
 
 
-          <p>Must be an integer value, such as "<code>100</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.tachaeon.tictacrumble.TicTacRumble:results_limit
-        */
+         <p>Must be an integer value, such as "<code>100</code>".
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
+         @attr name com.tachaeon.dropbeat:results_limit
+         */
         public static final int com_facebook_place_picker_fragment_results_limit = 1;
         /**
-          <p>This symbol is the offset where the {@link com.tachaeon.tictacrumble.TicTacRumble.R.attr#search_text}
-          attribute's value can be found in the {@link #com_facebook_place_picker_fragment} array.
+         <p>This symbol is the offset where the {@link com.tachaeon.dropbeat.R.attr#search_text}
+         attribute's value can be found in the {@link #com_facebook_place_picker_fragment} array.
 
 
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.tachaeon.tictacrumble.TicTacRumble:search_text
-        */
+         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
+         @attr name com.tachaeon.dropbeat:search_text
+         */
         public static final int com_facebook_place_picker_fragment_search_text = 2;
         /**
-          <p>This symbol is the offset where the {@link com.tachaeon.tictacrumble.TicTacRumble.R.attr#show_search_box}
-          attribute's value can be found in the {@link #com_facebook_place_picker_fragment} array.
+         <p>This symbol is the offset where the {@link com.tachaeon.dropbeat.R.attr#show_search_box}
+         attribute's value can be found in the {@link #com_facebook_place_picker_fragment} array.
 
 
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.tachaeon.tictacrumble.TicTacRumble:show_search_box
-        */
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
+         @attr name com.tachaeon.dropbeat:show_search_box
+         */
         public static final int com_facebook_place_picker_fragment_show_search_box = 3;
         /** Attributes that can be used with a com_facebook_profile_picture_view.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #com_facebook_profile_picture_view_is_cropped com.tachaeon.tictacrumble.TicTacRumble:is_cropped}</code></td><td></td></tr>
-           <tr><td><code>{@link #com_facebook_profile_picture_view_preset_size com.tachaeon.tictacrumble.TicTacRumble:preset_size}</code></td><td></td></tr>
-           </table>
-           @see #com_facebook_profile_picture_view_is_cropped
-           @see #com_facebook_profile_picture_view_preset_size
+         <p>Includes the following attributes:</p>
+         <table>
+         <colgroup align="left" />
+         <colgroup align="left" />
+         <tr><th>Attribute</th><th>Description</th></tr>
+         <tr><td><code>{@link #com_facebook_profile_picture_view_is_cropped com.tachaeon.dropbeat:is_cropped}</code></td><td></td></tr>
+         <tr><td><code>{@link #com_facebook_profile_picture_view_preset_size com.tachaeon.dropbeat:preset_size}</code></td><td></td></tr>
+         </table>
+         @see #com_facebook_profile_picture_view_is_cropped
+         @see #com_facebook_profile_picture_view_preset_size
          */
         public static final int[] com_facebook_profile_picture_view = {
-            0x7f010021, 0x7f010022
+                0x7f010021, 0x7f010022
         };
         /**
-          <p>This symbol is the offset where the {@link com.tachaeon.tictacrumble.TicTacRumble.R.attr#is_cropped}
-          attribute's value can be found in the {@link #com_facebook_profile_picture_view} array.
+         <p>This symbol is the offset where the {@link com.tachaeon.dropbeat.R.attr#is_cropped}
+         attribute's value can be found in the {@link #com_facebook_profile_picture_view} array.
 
 
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.tachaeon.tictacrumble.TicTacRumble:is_cropped
-        */
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+         <p>This may also be a reference to a resource (in the form
+         "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         theme attribute (in the form
+         "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         containing a value of this type.
+         @attr name com.tachaeon.dropbeat:is_cropped
+         */
         public static final int com_facebook_profile_picture_view_is_cropped = 1;
         /**
-          <p>This symbol is the offset where the {@link com.tachaeon.tictacrumble.TicTacRumble.R.attr#preset_size}
-          attribute's value can be found in the {@link #com_facebook_profile_picture_view} array.
+         <p>This symbol is the offset where the {@link com.tachaeon.dropbeat.R.attr#preset_size}
+         attribute's value can be found in the {@link #com_facebook_profile_picture_view} array.
 
 
-          <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>small</code></td><td>-2</td><td> Keep in sync with constants in ProfilePictureView </td></tr>
-<tr><td><code>normal</code></td><td>-3</td><td></td></tr>
-<tr><td><code>large</code></td><td>-4</td><td></td></tr>
-</table>
-          @attr name com.tachaeon.tictacrumble.TicTacRumble:preset_size
-        */
+         <p>Must be one of the following constant values.</p>
+         <table>
+         <colgroup align="left" />
+         <colgroup align="left" />
+         <colgroup align="left" />
+         <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+         <tr><td><code>small</code></td><td>-2</td><td> Keep in sync with constants in ProfilePictureView </td></tr>
+         <tr><td><code>normal</code></td><td>-3</td><td></td></tr>
+         <tr><td><code>large</code></td><td>-4</td><td></td></tr>
+         </table>
+         @attr name com.tachaeon.dropbeat:preset_size
+         */
         public static final int com_facebook_profile_picture_view_preset_size = 0;
     };
 }
